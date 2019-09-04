@@ -8,4 +8,5 @@ def get_file_content(filePath):
         return fp.read()
 
 image = get_file_content('./test_imgs/body_1.jpg')
-print(client.bodyAnalysis(image))
+kpt_result = client.bodyAnalysis(image)
+print(kpt_result)

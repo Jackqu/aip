@@ -1,0 +1,13 @@
+keypoints_list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+keypoints_pair: [[0,1], [2,4], [4,6], [2,3], [3,5], [5,7], [2,8], [3,9], [8,9], [8,10],[10,12],[9,11],[11,13]]
+kpts_color: [0, 0, 255]
+line_color: [0,255,255]
+vis_th: 0.1
+video: '/Users/qxc/Desktop/20190730.mp4'
+video_save: '/Users/qxc/Desktop/20190730.mp4_save.avi'
+flip: false
+resize_ratio: 0.5
+smooth_frame_num: 1
+smooth_sigma: 0.00000005
+
+
